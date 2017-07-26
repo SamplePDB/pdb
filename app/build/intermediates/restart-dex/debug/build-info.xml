@@ -2,26 +2,26 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="22"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1500987743333"
+    timestamp="1501069925829"
     token="6596825756588532630"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="62" />
+        duration="86" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="16" />
+        duration="11" />
     <task
         name="verifier"
-        duration="2" />
+        duration="0" />
 
     <artifact
         location="/root/AndroidStudioProjects/Pdb1/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -29,10 +29,40 @@
     <artifact
         location="/root/AndroidStudioProjects/Pdb1/app/build/outputs/apk/app-debug.apk"
         type="SPLIT_MAIN" />
+    <artifact
+        location="/root/AndroidStudioProjects/Pdb1/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/root/AndroidStudioProjects/Pdb1/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/root/AndroidStudioProjects/Pdb1/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/root/AndroidStudioProjects/Pdb1/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/root/AndroidStudioProjects/Pdb1/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/root/AndroidStudioProjects/Pdb1/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/root/AndroidStudioProjects/Pdb1/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/root/AndroidStudioProjects/Pdb1/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/root/AndroidStudioProjects/Pdb1/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/root/AndroidStudioProjects/Pdb1/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1500977517094"
+        timestamp="1501069925829"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/root/AndroidStudioProjects/Pdb1/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -70,36 +100,6 @@
         <artifact
             location="/root/AndroidStudioProjects/Pdb1/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1500986628168"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/root/AndroidStudioProjects/Pdb1/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/root/AndroidStudioProjects/Pdb1/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1500987246439"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/root/AndroidStudioProjects/Pdb1/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1500987743333"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/root/AndroidStudioProjects/Pdb1/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/root/AndroidStudioProjects/Pdb1/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

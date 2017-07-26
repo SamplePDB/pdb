@@ -49,7 +49,6 @@
         <activity android:name="com.reachuson.app.pdb1.Verify" />
         <activity android:name="com.reachuson.app.pdb1.Retailer" />
         <activity android:name="com.reachuson.app.pdb1.Medical" />
-        <activity android:name="com.reachuson.app.pdb1.Doc" />
         <activity
             android:name="com.reachuson.app.pdb1.Supplier"
             android:label="@string/title_activity_supplier"

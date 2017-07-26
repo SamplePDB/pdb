@@ -1,6 +1,8 @@
 package com.reachuson.app.pdb1;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -48,40 +50,63 @@ public class Verify extends AppCompatActivity {
 
     }
     public void send_otp(View view){
-        String phno = ph.getText().toString();
-        FirebaseUser user2 = mauth.getCurrentUser();
-        userID = user2.getUid();
-        myref.child(userID).child("num").setValue(phno);
+        String phno = "+91"+ph.getText().toString() ;
         if(phno.isEmpty()){
-            Toast.makeText(this, "Please Enter a Valid Phone Number", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please enter a Valid Phone Number", Toast.LENGTH_SHORT).show();
         }
         else{
-            RingcaptchaAPIController controller = new RingcaptchaAPIController("4ebyjo1okyna5u8ino8y");
-            controller.sendCaptchaCodeToNumber(getApplicationContext(), phno, RingcaptchaService.SMS, new RingcaptchaHandler() {
-
-                //Called when the response is successful
+            AlertDialog.Builder alertb = new AlertDialog.Builder(this);
+            alertb.setMessage("Is Your Phone Number Correct?\r\n"+phno);
+            alertb.setPositiveButton("Yeah!", new DialogInterface.OnClickListener() {
                 @Override
-                public void onSuccess(RingcaptchaResponse o) {
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    String phno = "+91" + ph.getText().toString();
+                    FirebaseUser user2 = mauth.getCurrentUser();
+                    userID = user2.getUid();
+                    myref.child(userID).child("num").setValue(phno);
 
-                    //Handle SMS reception automatically (only valid for verification)
-                    RingcaptchaAPIController.setSMSHandler(new RingcaptchaSMSHandler() {
 
-                        //Only called when SMS reception was detected
+                    RingcaptchaAPIController controller = new RingcaptchaAPIController("4ebyjo1okyna5u8ino8y");
+                    controller.sendCaptchaCodeToNumber(getApplicationContext(), phno, RingcaptchaService.SMS, new RingcaptchaHandler() {
+
+                    //Called when the response is successful
                         @Override
-                        public boolean handleMessage(String s, String s1) {
-                            //Automatically verify PIN code
-                            return true;
+                        public void onSuccess(RingcaptchaResponse o) {
+
+                        //Handle SMS reception automatically (only valid for verification)
+                            RingcaptchaAPIController.setSMSHandler(new RingcaptchaSMSHandler() {
+
+                            //Only called when SMS reception was detected
+                                @Override
+                                public boolean handleMessage(String s, String s1) {
+                                //Automatically verify PIN code
+                                    return true;
+                                }
+                            });
                         }
-                    });
+
+                    //Called when the response is unsuccessful
+                        @Override
+                        public void onError(Exception e) {
+                        //Display an error to the user
+                        }
+                    }, "440eaa00032114cb2933c5e74d8f3b9e46a4e7bc");
+                    Intent inte = new Intent(Verify.this, Verify2.class);
+                    startActivity(inte);
+
                 }
-                //Called when the response is unsuccessful
-                @Override
-                public void onError(Exception e) {
-                    //Display an error to the user
-                }
-            }, "440eaa00032114cb2933c5e74d8f3b9e46a4e7bc");
-            Intent inte = new Intent(Verify.this,Verify2.class);
-            startActivity(inte);
+
+            });
+                alertb.setNegativeButton("Nope", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        finish();
+                    }
+                });
+            AlertDialog alert = alertb.create();
+            alert.show();
+
         }
+
     }
 }
