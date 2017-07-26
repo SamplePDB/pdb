@@ -49,13 +49,10 @@
         <activity android:name="com.reachuson.app.pdb1.Verify" />
         <activity android:name="com.reachuson.app.pdb1.Retailer" />
         <activity android:name="com.reachuson.app.pdb1.Medical" />
-        <activity
-            android:name="com.reachuson.app.pdb1.Supplier"
-            android:label="@string/title_activity_supplier"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.reachuson.app.pdb1.Reg_sup" />
         <activity android:name="com.reachuson.app.pdb1.Type_checker" />
         <activity android:name="com.reachuson.app.pdb1.Verify2" />
+        <activity android:name="com.reachuson.app.pdb1.Supplier" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

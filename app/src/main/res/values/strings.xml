@@ -4,4 +4,12 @@
     <string name="title_activity_supplier">Supplier</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+
+    <string-array name="type">
+        <item>Strips-Capsules</item>
+        <item>Strips-Tablets</item>
+        <item>Vials</item>
+        <item>Bottles</item>
+        <item>Pieces</item>
+    </string-array>
 </resources>

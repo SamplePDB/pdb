@@ -1,23 +1,15 @@
 package com.reachuson.app.pdb1;
 
-import android.content.Intent;
-import android.support.design.widget.TabLayout;
+import android.content.SharedPreferences;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-
-import android.widget.TextView;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
+import java.util.UUID;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -25,26 +17,17 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class Supplier extends AppCompatActivity {
-
-    /**
-     * The {@link android.support.v4.view.PagerAdapter} that will provide
-     * fragments for each of the sections. We use a
-     * {@link FragmentPagerAdapter} derivative, which will keep every
-     * loaded fragment in memory. If this becomes too memory intensive, it
-     * may be best to switch to a
-     * {@link android.support.v4.app.FragmentStatePagerAdapter}.
-     */
-    private SectionsPagerAdapter mSectionsPagerAdapter;
-
-    /**
-     * The {@link ViewPager} that will host the section contents.
-     */
-    private ViewPager mViewPager;
+    private String count;
+    private EditText Brand,prod1,qty1,mrp1,price1,mon1,year1;
+    private FloatingActionButton fab;
+    private RelativeLayout rl1,rl2,rl3,rl11;
+    private Button save;
+    private String userID;
 
     private FirebaseAuth mauth;
     private FirebaseDatabase mdb;
-    private DatabaseReference myref;
-    private String userID;
+    private DatabaseReference mref;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,93 +36,66 @@ public class Supplier extends AppCompatActivity {
 
         mauth = FirebaseAuth.getInstance();
         mdb = FirebaseDatabase.getInstance();
-        myref = mdb.getReference();
+        FirebaseUser user = mauth.getCurrentUser();
+        userID = user.getUid();
 
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        // Create the adapter that will return a fragment for each of the three
-        // primary sections of the activity.
-        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
-
-        // Set up the ViewPager with the sections adapter.
-        mViewPager = (ViewPager) findViewById(R.id.container);
-        mViewPager.setAdapter(mSectionsPagerAdapter);
-
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
-        tabLayout.setupWithViewPager(mViewPager);
-    }
-
+        rl1 = (RelativeLayout)findViewById(R.id.rl1);
+        rl2 = (RelativeLayout)findViewById(R.id.rl2);
+        rl3 = (RelativeLayout)findViewById(R.id.rl3);
+        rl11 = (RelativeLayout)findViewById(R.id.rl11);
+        qty1 = (EditText)findViewById(R.id.editText10);
+        mrp1 = (EditText)findViewById(R.id.editText11);
+        price1 = (EditText)findViewById(R.id.editText12);
+        Brand = (EditText)findViewById(R.id.editText5);
+        prod1 = (EditText)findViewById(R.id.editText3);
+        save = (Button) findViewById(R.id.button3);
+        mon1 = (EditText)findViewById(R.id.editText13);
+        year1 = (EditText)findViewById(R.id.editText6);
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_supplier, menu);
-        return true;
-    }
+        rl11.setVisibility(View.GONE);
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+        fab = (FloatingActionButton)findViewById(R.id.floatingActionButton2);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                fab.setVisibility(View.GONE);
+                rl11.setVisibility(View.VISIBLE);
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-
-
-    /**
-     * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
-     * one of the sections/tabs/pages.
-     */
-    public class SectionsPagerAdapter extends FragmentPagerAdapter {
-
-        public SectionsPagerAdapter(FragmentManager fm) {
-            super(fm);
-        }
-
-        @Override
-        public Fragment getItem(int position) {
-            switch (position){
-                case 0:
-                        tab1 tab11 = new tab1();
-                        return tab11;
-                case 1:
-                        tab2 tab22 = new tab2();
-                        return tab22;
-                case 2:
-                        tab3 tab33 = new tab3();
-                        return tab33;
-                default:
-                        return null;
             }
-        }
+        });
 
-        @Override
-        public int getCount() {
-            // Show 3 total pages.
-            return 3;
-        }
+        save.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
-        @Override
-        public CharSequence getPageTitle(int position) {
-            switch (position) {
-                case 0:
-                    return "Pulserate";
-                case 1:
-                    return "Inventory";
-                case 2:
-                    return "Promotions";
+                String brand = Brand.getText().toString();
+                String prod = prod1.getText().toString();
+                String  qty = qty1.getText().toString();
+                String  mrp = mrp1.getText().toString();
+                String  price = price1.getText().toString();
+                String mon = mon1.getText().toString();
+                String year = year1.getText().toString();
+
+
+                medicine medi = new medicine();
+                medi.setqty(qty);
+                medi.setName(prod);
+                medi.setBrand(brand);
+                medi.setMrp(mrp);
+                medi.setprice(price);
+                medi.setmon(mon);
+                medi.setyear(year);
+
+
+                String key = UUID.randomUUID().toString();
+                mdb.getReference(userID).child("medicine"+key).setValue(medi);
+                Toast.makeText(Supplier.this, ""+medi, Toast.LENGTH_SHORT).show();
+
+
+
             }
-            return null;
-        }
+        });
     }
 }

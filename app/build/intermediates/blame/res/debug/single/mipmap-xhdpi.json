@@ -30,5 +30,9 @@
     {
         "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_user.png",
         "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/mipmap-xhdpi/ic_user.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_inventory.png",
+        "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/mipmap-xhdpi/ic_inventory.png"
     }
 ]

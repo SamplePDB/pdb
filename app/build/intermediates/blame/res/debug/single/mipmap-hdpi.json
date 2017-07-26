@@ -4,6 +4,10 @@
         "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/mipmap-hdpi/ic_profile.png"
     },
     {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_inventory.png",
+        "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/mipmap-hdpi/ic_inventory.png"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_user.png",
         "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/mipmap-hdpi/ic_user.png"
     },

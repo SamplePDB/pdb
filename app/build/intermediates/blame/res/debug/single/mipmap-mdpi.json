@@ -24,6 +24,10 @@
         "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/mipmap-mdpi/ic_doctor.png"
     },
     {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_inventory.png",
+        "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/mipmap-mdpi/ic_inventory.png"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
         "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },

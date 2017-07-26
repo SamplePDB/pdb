@@ -36,8 +36,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="45dp"
         android:ems="10"
-        android:inputType="numberPassword"
-        android:hint="Phone Number!"
+        android:inputType="textPassword"
+        android:hint="Password!"
         android:layout_below="@+id/editText"
         android:layout_alignLeft="@+id/editText"
         android:layout_alignStart="@+id/editText" />

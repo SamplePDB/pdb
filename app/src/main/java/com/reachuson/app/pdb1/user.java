@@ -7,10 +7,9 @@ package com.reachuson.app.pdb1;
 public class user {
 
         //name and address string
-        private String name;
+        private String name,mName,Prod,Qty,Mrp,Price,Mon,Year,Tax;
         private String Instname;
         private String pin;
-        private String type;
         private String number;
 
         public user() {
@@ -41,16 +40,13 @@ public class user {
             this.pin = pin;
         }
 
-        public void settype(String type) {
-            this.type = type;
-        }
 
-        public String gettype() {
-            return type;
-        }
 
         public String getnumber(){return number;}
 
         public void setnumber(String Number){this.number = Number;}
+
+
+
 
 }

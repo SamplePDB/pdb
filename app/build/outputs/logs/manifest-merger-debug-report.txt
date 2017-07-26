@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:2:1-40:12
+ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:2:1-33:12
 	package
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:4:5-37
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml
 		INJECTED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -14,20 +14,20 @@ ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:2:1
 		INJECTED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml
 		INJECTED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:6:5-67
+ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.thrivecom:ringcaptcha:1.0.11] /root/.android/build-cache/a589e3bdd52a160809357c6ba06591ff6b384dca/output/AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-analytics:10.0.1] /root/.android/build-cache/9411b9ab34a42cb17330736dfce7c056cabd6822/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /root/.android/build-cache/79e42090af8aa9d0846f27591620e73bbef174c3/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-iid:10.0.1] /root/.android/build-cache/649c7690b84c504da80cb414ece9f731800396c9/output/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.RECEIVE_SMS
-ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:7:5-70
+ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:6:5-70
 MERGED from [com.thrivecom:ringcaptcha:1.0.11] /root/.android/build-cache/a589e3bdd52a160809357c6ba06591ff6b384dca/output/AndroidManifest.xml:15:5-70
 	android:name
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:7:22-67
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:6:22-67
 application
-ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:9:5-38:19
+ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:8:5-31:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /root/.android/build-cache/939f2150e2ccb87cd31fb62e49743aae460d1e60/output/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:10.0.1] /root/.android/build-cache/ad0c87840cc61fc7325a0ffdc45241ea0c5def01/output/AndroidManifest.xml:19:5-20:19
 MERGED from [com.google.android.gms:play-services-base:10.0.1] /root/.android/build-cache/0bfe9ab14d7d31405526fb83c897a489407a9af5/output/AndroidManifest.xml:18:5-20:19
@@ -51,73 +51,69 @@ MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /root/.android/b
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /root/.android/build-cache/56bc812498c766af9693348f81a6acf71efd45fb/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] /root/.android/build-cache/26f365bb53b171dcc1ac37219d5c6c21afa0d2e1/output/AndroidManifest.xml:30:5-20
 	android:label
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:13:9-35
 	android:hardwareAccelerated
 		ADDED from [com.thrivecom:ringcaptcha:1.0.11] /root/.android/build-cache/a589e3bdd52a160809357c6ba06591ff6b384dca/output/AndroidManifest.xml:21:9-43
 	android:roundIcon
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:14:9-54
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:12:9-54
 	android:allowBackup
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:11:9-39
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:10:9-39
 	android:theme
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.reachuson.app.pdb1.Login
-ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:18:9-24:20
+ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:18:19-40
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:15:19-40
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:19:27-74
 activity#com.reachuson.app.pdb1.Register
+ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:22:9-46
+	android:name
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:22:19-43
+activity#com.reachuson.app.pdb1.MainActivity
+ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:23:9-50
+	android:name
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:23:19-47
+activity#com.reachuson.app.pdb1.Verify
+ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:24:19-41
+activity#com.reachuson.app.pdb1.Retailer
 ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:25:9-46
 	android:name
 		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:25:19-43
-activity#com.reachuson.app.pdb1.MainActivity
-ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:26:9-50
-	android:name
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:26:19-47
-activity#com.reachuson.app.pdb1.Verify
-ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:27:9-44
-	android:name
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:27:19-41
-activity#com.reachuson.app.pdb1.Retailer
-ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:28:9-46
-	android:name
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:28:19-43
 activity#com.reachuson.app.pdb1.Medical
+ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:26:9-45
+	android:name
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:26:19-42
+activity#com.reachuson.app.pdb1.Reg_sup
+ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:27:9-45
+	android:name
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:27:19-42
+activity#com.reachuson.app.pdb1.Type_checker
+ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:28:9-50
+	android:name
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:28:19-47
+activity#com.reachuson.app.pdb1.Verify2
 ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:29:9-45
 	android:name
 		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:29:19-42
 activity#com.reachuson.app.pdb1.Supplier
-ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:31:9-34:59
-	android:label
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:33:13-60
-	android:theme
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:34:13-56
+ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:30:9-45
 	android:name
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:32:13-37
-activity#com.reachuson.app.pdb1.Reg_sup
-ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:35:9-45
-	android:name
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:35:19-42
-activity#com.reachuson.app.pdb1.Type_checker
-ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:36:9-50
-	android:name
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:36:19-47
-activity#com.reachuson.app.pdb1.Verify2
-ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:37:9-54
-	android:name
-		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:37:19-42
+		ADDED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml:30:19-43
 uses-sdk
 INJECTED from /root/AndroidStudioProjects/Pdb1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /root/.android/build-cache/939f2150e2ccb87cd31fb62e49743aae460d1e60/output/AndroidManifest.xml:5:5-7:41

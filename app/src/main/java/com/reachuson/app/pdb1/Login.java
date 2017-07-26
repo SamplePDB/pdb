@@ -48,7 +48,7 @@ public class Login extends AppCompatActivity {
 
         mdb = FirebaseDatabase.getInstance();
         myref = mdb.getReference();
-        mUser = mauth.getCurrentUser();
+
 
 
 
@@ -69,29 +69,11 @@ public class Login extends AppCompatActivity {
                             Toast.makeText(Login.this, "Login Failure", Toast.LENGTH_SHORT).show();
                         }
                         else{
+                            Intent inter = new Intent(Login.this,Supplier.class);
+                            startActivity(inter);
+                            mUser = mauth.getCurrentUser();
                             String ID = mUser.getUid();
-                            myref2 = mdb.getReference(ID).child("type");
-                            myref2.addValueEventListener(new ValueEventListener() {
-                                @Override
-                                public void onDataChange(DataSnapshot dataSnapshot) {
-                                    String type = dataSnapshot.getValue().toString();
-                                   // Toast.makeText(Login.this, ""+type, Toast.LENGTH_SHORT).show();
-                                    if(type.contains("1")){
-                                        Intent inter = new Intent(Login.this,Supplier.class);
-                                        inter.putExtra("pass",email);
-                                        inter.putExtra("nothing","nothi");
-                                        startActivity(inter);
-                                    }
-                                    else{
-                                        Toast.makeText(Login.this, "Hang in there!"+type, Toast.LENGTH_SHORT).show();
-                                    }
-                                }
 
-                                @Override
-                                public void onCancelled(DatabaseError databaseError) {
-
-                                }
-                            });
 
 
                         }

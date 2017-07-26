@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/drawable-hdpi/inventory.png",
+        "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/drawable-hdpi/inventory.png"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_user.png",
         "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/drawable-hdpi/ic_user.png"
     }
