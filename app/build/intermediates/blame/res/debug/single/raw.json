@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/raw/key.crt",
+        "source": "/root/.android/build-cache/a589e3bdd52a160809357c6ba06591ff6b384dca/output/res/raw/key.crt"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/raw/countries.xml",
+        "source": "/root/.android/build-cache/a589e3bdd52a160809357c6ba06591ff6b384dca/output/res/raw/countries.xml"
+    }
+]

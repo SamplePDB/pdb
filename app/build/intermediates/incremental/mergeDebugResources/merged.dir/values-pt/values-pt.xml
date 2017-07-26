@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ERROR_COUNTRY_NOT_SUPPORTED">O código de país que você digitou não é válido. Por favor, tente novamente.</string>
+    <string name="ERROR_DEFAULT_MESSAGE">Houve um erro ao processar seu pedido, por favor, tente novamente em alguns minutos.</string>
+    <string name="ERROR_INVALID_APP_KEY">Senha inválida. Verifique as instruções sobre como usar o aplicativo corretamente.</string>
+    <string name="ERROR_INVALID_DOMAIN">Nome do aplicativo inválido. Verifique as instruções sobre como usar o aplicativo corretamente.</string>
+    <string name="ERROR_INVALID_NUMBER">O número de telefone que você digitou não é válido. Por favor, tente novamente.</string>
+    <string name="ERROR_INVALID_NUMBER_LENGTH">O número de telefone que você digitou não é válido. Por favor, tente novamente.</string>
+    <string name="ERROR_INVALID_PIN_CODE">O código PIN que você inseriu é inválido. Por favor, tente novamente.</string>
+    <string name="ERROR_INVALID_SECRET_KEY">Senha inválida. Verifique as instruções sobre como usar o aplicativo corretamente.</string>
+    <string name="ERROR_INVALID_SESSION">Houve um erro ao processar o pedido, por favor, tente novamente em alguns minutos.</string>
+    <string name="ERROR_INVALID_SITE_KEY">Senha inválida. Verifique as instruções sobre como usar o aplicativo corretamente.</string>
+    <string name="ERROR_MAX_ATTEMPTS_REACHED">Você excedeu o valor máximo de tentativas. Por favor, tente novamente em 15 minutos.</string>
+    <string name="ERROR_MAX_VALIDATIONS_REACHED">Você excedeu o valor máximo de verificações. Por favor, solicitar outro PIN antes de tentar novamente.</string>
+    <string name="ERROR_OUT_OF_CREDIT">Houve um erro ao processar o pedido, por favor, tente novamente em alguns minutos.</string>
+    <string name="ERROR_PHONE_NUMBER_NOT_SIM_CARD">O número de telefone discado não corresponde cartão SIM. Por favor, tente novamente.</string>
+    <string name="ERROR_SESSION_EXPIRED">Houve um erro ao processar o pedido, por favor, tente novamente em alguns minutos.</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Selecione um app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESATIVAR"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ATIVAR"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pesquisar..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartilhar com %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="agree">By clicking you agree to the Privacy Policy</string>
+    <string name="callme">Me liga</string>
+    <string name="cancel">Cancelar</string>
+    <string name="code_error">O código PIN que você inseriu é inválido. Por favor, tente novamente.</string>
+    <string name="country_code_phone_number">SEU CODIGO DE PAIS E NUMERO DE TELEFONE</string>
+    <string name="done">Feito</string>
+    <string name="edit">Editar</string>
+    <string name="help_content">Ajudar</string>
+    <string name="is_your_number_correct">É correto o seu número de telefone acima?</string>
+    <string name="loading">Carregamento</string>
+    <string name="minutes_left">Você deve esperar %d minutos antes de tentar novamente</string>
+    <string name="no">Não</string>
+    <string name="number_confirmation">Número de confirmação</string>
+    <string name="ok">OK</string>
+    <string name="phone_number">seu número de telefone</string>
+    <string name="please_confirm">Por favor, confirme </string>
+    <string name="please_enter_4_digits">Por favor insira o código de ativação de 4 dígitos.</string>
+    <string name="preparing_callme">Aguardar a chamada</string>
+    <string name="resend">Re-enviar</string>
+    <string name="search_hint">Procurar...</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Pesquisar"</string>
+    <string name="search_title">Seu país</string>
+    <string name="seconds_left">Você deve esperar %d segundos antes de tentar novamente</string>
+    <string name="sending_msg">"Envio de mensagem..."</string>
+    <string name="sms_sent">Enviámos-lhe um SMS com um código para o \n número</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="thanks">Thanks! You have been verified</string>
+    <string name="thanks_for_registering">Verificação de telefone</string>
+    <string name="title_verify">Verifique o seu número</string>
+    <string name="verifying_msg">"Verificação de código..."</string>
+    <string name="yes">Sim</string>
+    <string name="your_country">SEU PAIS</string>
+    <string name="your_phone">seu número de telefone</string>
+</resources>

@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/root/.android/build-cache/1e3137a63333012f08e6367cb198a46518419b0d/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/root/.android/build-cache/1e3137a63333012f08e6367cb198a46518419b0d/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/root/.android/build-cache/1e3137a63333012f08e6367cb198a46518419b0d/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/root/.android/build-cache/1e3137a63333012f08e6367cb198a46518419b0d/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/root/.android/build-cache/f33266992a934570c3ef37fda09b6c84ab7a00c9/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/root/.android/build-cache/1e3137a63333012f08e6367cb198a46518419b0d/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/root/.android/build-cache/1e3137a63333012f08e6367cb198a46518419b0d/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/root/.android/build-cache/1e3137a63333012f08e6367cb198a46518419b0d/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/root/.android/build-cache/f33266992a934570c3ef37fda09b6c84ab7a00c9/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/root/.android/build-cache/1e3137a63333012f08e6367cb198a46518419b0d/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/root/.android/build-cache/1e3137a63333012f08e6367cb198a46518419b0d/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/root/.android/build-cache/f33266992a934570c3ef37fda09b6c84ab7a00c9/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/root/.android/build-cache/f33266992a934570c3ef37fda09b6c84ab7a00c9/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/root/.android/build-cache/1e3137a63333012f08e6367cb198a46518419b0d/output/res/anim/abc_popup_exit.xml"
+    }
+]

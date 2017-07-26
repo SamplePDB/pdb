@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 58,
+                    "endOffset": 109
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/a589e3bdd52a160809357c6ba06591ff6b384dca/output/res/values-sw720dp-land-v13/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 199,
+                        "endColumn": 58,
+                        "endOffset": 253
+                    }
+                }
+            }
+        ]
+    }
+]

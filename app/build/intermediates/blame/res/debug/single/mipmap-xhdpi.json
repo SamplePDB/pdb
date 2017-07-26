@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_retailer.png",
+        "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/mipmap-xhdpi/ic_retailer.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_supplier.png",
+        "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/mipmap-xhdpi/ic_supplier.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_medicals.png",
+        "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/mipmap-xhdpi/ic_medicals.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_doctor.png",
+        "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/mipmap-xhdpi/ic_doctor.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_profile.png",
+        "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/mipmap-xhdpi/ic_profile.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Pdb1/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_user.png",
+        "source": "/root/AndroidStudioProjects/Pdb1/app/src/main/res/mipmap-xhdpi/ic_user.png"
+    }
+]

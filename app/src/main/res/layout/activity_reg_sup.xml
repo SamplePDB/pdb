@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.reachuson.app.pdb1.Reg_sup">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:text="Registration"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Institute Name" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_below="@+id/editText7"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Owner Name" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText8"
+        android:layout_alignStart="@+id/editText8"
+        android:layout_below="@+id/editText8"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Pincode" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Save"
+        android:onClick="save"/>
+
+</RelativeLayout>
